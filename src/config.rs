@@ -12,7 +12,7 @@ pub struct Configuration {
 impl Default for Configuration {
     fn default() -> Self {
         Configuration {
-            token: String::from("TOKEN HERE"),
+            token: String::from("NTUyNDIyMjEwNDE4MTE0NTcx.XNaxDQ.dKF1y2WFD_7D0CQshhbq7M72hfQ"),
             debug_logging: false,
             pgsql_url: String::from("postgresql://superuser:root@localhost:5432/asami"),
         }
